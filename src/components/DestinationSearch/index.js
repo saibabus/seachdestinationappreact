@@ -6,7 +6,7 @@ import './index.css'
 import DestinationItem from '../DestinationItem'
 
 class DestinationSearch extends Component {
-  state = {searchInput: ' '}
+  state = {searchInput: ''}
 
   searchinginput = event => this.setState({searchInput: event.target.value})
 
@@ -23,7 +23,7 @@ class DestinationSearch extends Component {
     return (
       <div className="mainbgcontainer">
         <div className="destinationContent">
-          <h1 className="heading">Destination List</h1>
+          <h1 className="heading">Destination Search</h1>
           <div className="searchContainer">
             <input
               type="search"
