@@ -1,0 +1,23 @@
+/* Write your CSS here */
+.destinationimg {
+  width: 150px;
+  height: 140px;
+  margin-bottom: 5px;
+}
+
+.eachdestination {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 200px;
+  height: 180px;
+}
+
+.nameofitem {
+  color: #0f172a;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: 'open sans';
+  align-self: flex-start;
+}
